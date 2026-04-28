@@ -1,0 +1,51 @@
+{
+  "cesp_version": "1.0",
+  "name": "balatro",
+  "display_name": "Balatro",
+  "version": "1.0.0",
+  "author": { "name": "cole.boren", "github": "williycole" },
+  "license": "fair-use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/session_start_1_main_theme.mp3", "label": "Main theme" },
+        { "file": "sounds/session_start_2_celestial_theme.mp3", "label": "Celestial theme" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/acknowledge_1_jimbo.mp3", "label": "Jimbo" },
+        { "file": "sounds/acknowledge_2_jimbo2.ogg", "label": "Jimbo 2" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/complete_1_win.ogg", "label": "Win" },
+        { "file": "sounds/complete_2_holo1.ogg", "label": "Holo" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/error_1_glass.ogg", "label": "Glass" },
+        { "file": "sounds/error2_cancel.ogg", "label": "Cancel" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/input_required_1.ogg", "label": "Your move" },
+        { "file": "sounds/input_required_2_explosion_buildup1.ogg", "label": "Explosion buildup" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/resource_limit_1_negative.ogg", "label": "Negative" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/user_spam_multihit.mp3", "label": "Multihit" }
+      ]
+    }
+  }
+}
